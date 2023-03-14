@@ -1,0 +1,341 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Just Bank</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="img/logo.png" alt="logo bank" class="nav__logo" id="logo" />
+        <div class="nav__text">Just Bank</div>
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Reviews</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal-window" href="#">
+              Open an account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          When
+
+          <span class="highlight">bank</span>
+
+          is so easy to<br />
+          <span class="highlight"> use</span>
+        </h1>
+        <h4>Easier banking experience to make life easier.</h4>
+        <button class="btn--text btn--scroll-to">
+          To learn more &DownArrow;
+        </button>
+        <img src="img/bank.png" class="header__img" alt="bank logo" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Services</h2>
+        <h3 class="section__header">Everything you need in a modern bank.</h3>
+      </div>
+
+      <div class="services">
+        <img
+          src="img/stock-exchange-lazy.jpg"
+          data-src="img/stock-exchange.jpg"
+          alt="marks on screen"
+          class="services__img lazy-img"
+        />
+        <div class="services__feature">
+          <div class="services__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="services__header">100% digital bank</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+            feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+            at eros. Donec vitae odio non mauris convallis congue. Quisque id
+            rhoncus elit. Nam accumsan facilisis felis.
+          </p>
+        </div>
+
+        <div class="services__feature">
+          <div class="services__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="services__header">Watch your money grow</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+            feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+            at eros. Donec vitae odio non mauris convallis congue. Quisque id
+            rhoncus elit. Nam accumsan facilisis felis.
+          </p>
+        </div>
+        <img
+          src="img/business-lazy.jpg"
+          data-src="img/business.jpg"
+          alt="grafic"
+          class="services__img lazy-img"
+        />
+
+        <img
+          src="img/payment-lazy.jpg"
+          data-src="img/payment.jpg"
+          alt="credit card"
+          class="services__img lazy-img"
+        />
+        <div class="services__feature">
+          <div class="services__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="services__header">Free debit card included</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+            feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+            at eros. Donec vitae odio non mauris convallis congue. Quisque id
+            rhoncus elit. Nam accumsan facilisis felis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything is as simple as possible, but not simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            Instant transfers
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            Instant Loans
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            Instant Closing
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Instantly transfer money to anyone!
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+            feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+            at eros. Donec vitae odio non mauris convallis congue. Quisque id
+            rhoncus elit. Nam accumsan facilisis felis.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Buy a home or make your dreams come true with instant loans.
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+            feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+            at eros. Donec vitae odio non mauris convallis congue. Quisque id
+            rhoncus elit. Nam accumsan facilisis felis.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Is your account no longer needed? No problem! Close instantly.
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+            feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+            at eros. Donec vitae odio non mauris convallis congue. Quisque id
+            rhoncus elit. Nam accumsan facilisis felis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--reviews">
+        <h2 class="section__description">Still not sure?</h2>
+        <h3 class="section__header">
+          Millions of users are already making their lives easier.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="review">
+            <h5 class="review__header">The best financial solution!</h5>
+            <blockquote class="review__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+              feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+              at eros. Donec vitae odio non mauris convallis congue. Quisque id
+              rhoncus elit. Nam accumsan facilisis felis.
+            </blockquote>
+            <address class="review__author">
+              <img
+                src="img/user-1.png"
+                alt="user photo"
+                class="review__photo"
+              />
+              <h6 class="review__name">Marta Miracio</h6>
+              <p class="review__location">Milan, Italy</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="review">
+            <h5 class="review__header">
+              The last step to take full control of your finances
+            </h5>
+            <blockquote class="review__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+              feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+              at eros. Donec vitae odio non mauris convallis congue. Quisque id
+              rhoncus elit. Nam accumsan facilisis felis.
+            </blockquote>
+            <address class="review__author">
+              <img
+                src="img/user-2.png"
+                alt="user photo"
+                class="review__photo"
+              />
+              <h6 class="review__name">Ray Allen</h6>
+              <p class="review__location">Sacramento, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="review">
+            <h5 class="review__header">
+              Finally free from high interest on a mortgage in another bank
+            </h5>
+            <blockquote class="review__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+              feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+              at eros. Donec vitae odio non mauris convallis congue. Quisque id
+              rhoncus elit. Nam accumsan facilisis felis.
+            </blockquote>
+            <address class="review__author">
+              <img
+                src="img/user-3.png"
+                alt="user photo"
+                class="review__photo"
+              />
+              <h6 class="review__name">John Favro</h6>
+              <p class="review__location">Baltimore, USA</p>
+            </address>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">Now is the best time to join us!</h3>
+      </div>
+      <button class="btn btn--show-modal-window">Open a bank account!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About us</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Prices</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#"> Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#"> Career</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#"> Contact us</a>
+        </li>
+      </ul>
+      <img src="img/logo.png" alt="Логотип банка" class="footer__logo" />
+      <p class="footer__copyright">JOIN US NOW!</p>
+      <p class="footer__copyright"></p>
+    </footer>
+
+    <div class="modal-window hidden">
+      <button class="btn--close-modal-window">&times;</button>
+      <h2 class="modal__header">
+        Open a bank account <br />
+        <span class="highlight">in 5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email</label>
+        <input type="email" />
+        <button class="btn">Next &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
